@@ -91,7 +91,6 @@ $(document).ready(function () {
       type: "GET",
       url: "https://raw.githubusercontent.com/opendatajson/football.json/master/2017-18/en.1.clubs.json",
       success: function (result) {
-        // console.log(result);
         displayData(result)
         $('#btn5').html('Complete')
       }
