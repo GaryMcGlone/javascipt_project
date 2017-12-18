@@ -1,0 +1,53 @@
+#img1cont, #img2cont, #img3cont, #img4cont, #upperImageContainer{
+    position: relative;
+}
+.display-resources{
+    margin-left:150px;
+    margin-right: 150px;
+    margin-top: 25px;
+}
+@keyframes spin {
+    from 
+    {
+        transform:rotate(0deg);
+    }
+    to 
+    {
+        transform:rotate(360deg);
+    }
+}
+#footballImg{
+   display: none;
+   width: 50px;
+   height: 50px;
+   animation: spin 3s infinite;
+}
+.newClass{
+    background-image: none;
+    background-color: lightgray;
+    color: black;
+}
+.navButton{
+    border: 1px black solid;
+    box-shadow:3px 5px #888888 ;
+}
+#titleText, #subtitle{
+    opacity: 0;
+}
+#img1,#img2,#img3,#img4{
+    height: 200px;
+    width: 310px;
+}
+#page3banner{
+    height: 450px;
+    width: 1010px;
+}
+#contactBanner{
+     background-image: url('../img/page2banner.jpg'); 
+}
+#img1cont,#img2cont,#img3cont,#img4cont{
+    opacity: 0;
+}
+.newClass2{
+    background-color: lightblue;
+}
