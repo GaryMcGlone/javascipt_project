@@ -56,7 +56,6 @@ $(document).ready(function () {
     //function 6
     $('#btn3').click(function () {
       $(this).html('Detail')
-      //
       $('#img2cont, #img1cont, #img4cont').fadeIn(500);
       $('#img3cont').animate({ right: '0' });
     });
